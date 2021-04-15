@@ -14,6 +14,8 @@ Updating / installing...
    1:centreon-firewalld-0.0.1-1       ################################# [100%]
 ```
 
+You can use the released files from: https://github.com/centreon-lab/centreon-firewalld/releases/download/0.0.1/centreon-firewalld-0.0.1-1.x86_64.rpm
+
 Add firewall rules using the name of services
 
 ```sh
