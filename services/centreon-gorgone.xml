@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Centreon Gorgone</short>
+  <description>Centreon Gorgone and his "gorgoned" daemon is a lightweight, distributed, modular tasks handler.</description>
+  <port protocol="tcp" port="5556"/>
+</service>

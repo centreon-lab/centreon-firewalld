@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Centreon Broker</short>
+  <description>Centreon Broker is a Centreon Engine/Nagios module that report events in one or multiple databases.</description>
+  <port protocol="tcp" port="5669"/>
+</service>
