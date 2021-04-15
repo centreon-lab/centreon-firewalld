@@ -1,0 +1,22 @@
+Name:       centreon-firewalld
+Version:    0.0.1
+Release:    1
+Summary:    Apache2
+License:    Service files to use with daemon FirewallD
+Requires:   firewalld
+Source:     centreon-firewalld-%{version}.tar.gz
+
+%description
+Service files to use with daemon FirewallD
+
+%prep 
+%setup -q
+
+%install
+mkdir -p %{buildroot}/usr/lib/firewalld/services
+install -m 644 centreon-broker.xml %{buildroot}/usr/lib/firewalld/services/centreon-broker.xml
+install -m 644 centreon-gorgone.xml %{buildroot}/usr/lib/firewalld/services/centreon-gorgone.xml
+
+%files
+/usr/lib/firewalld/services/centreon-broker.xml
+/usr/lib/firewalld/services/centreon-gorgone.xml
